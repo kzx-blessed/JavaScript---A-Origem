@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(14, 14, 13);
+    height: 18vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(37, 37, 33, 0.836);
+ }
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 5rem;
+}
+
+.searchbar {
+    margin-left: 20rem ;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size:medium;
+    font-weight: 500;
+    padding: 7px;
+}
+
+.button {
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: yellow;
+    padding: 8px;
+    font-weight: 700 ;
+}
+.menu {
+    cursor: pointer;
+   
+}
+
+.menu div {
+    width: 40px;
+    height: 7px;
+    background: rgb(248, 232, 0);
+    margin: 5px;
+}
+
+.Inicio {
+    display: flex;
+    flex: row wrap;
+    background: linear-gradient(to top left, rgb(201, 201, 90), rgb(233, 233, 18));
+    box-shadow: 9px 1px 1em rgba(107, 105, 92, 0.753);
+}
+.banner {
+    display: flex;
+    flex-direction: row;
+    height: 95vh;
+    justify-content: space-evenly;
+}
+
+.banner img {
+    box-shadow: 9px 1px 1em rgba(107, 105, 92, 0.753);
+    justify-self: flex-start;
+}
+
+.bannerText {
+    display: flex;
+    flex: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8rem;
+   
+    
+}
+
+.bannerText h1{
+    margin-left: 8px;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.btIcon {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: none;
+    box-shadow: 2px 1px 1em rgba(37, 37, 37, 0.753);
+}
+
+.btIconC {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: none;
+    box-shadow: 2px 1px 1em rgba(37, 37, 37, 0.753);
+    align-self: center;
+}
+
+.curiosidades {
+    height: 20vh;
+    box-shadow: 9px 1px 1em rgba(182, 177, 153, 0.753);
+    background: rgb(14, 14, 13);
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.def {
+    height: 60vh;
+    background: rgb(71, 70, 70);
+    padding: 30px;
+    color: white;
+}
+
+.def h1{
+    font-size: 40px;
+}
