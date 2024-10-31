@@ -125,8 +125,117 @@ nav {
     background: rgb(71, 70, 70);
     padding: 30px;
     color: white;
+    box-shadow: 2px 2px 1em rgba(140, 140, 138, 0.753);
 }
 
 .def h1{
     font-size: 40px;
+}
+
+.funcionalidades {
+    height: 60vh;
+    background: rgb(0, 0, 0);
+    padding: 40px;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#funcionalidades {
+    color: white;
+}
+
+#item1 {
+    height: 30vh;
+    width: 35vh;
+    background: rgb(20, 23, 37);
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 20px;
+}
+
+#item1 h2 {
+    font-size: 20px;
+}
+
+#changeColorBtn {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+#item2 {
+    height: 30vh;
+    width: 35vh;
+    background: rgb(20, 23, 37);
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 20px;
+}
+
+#item2 h2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#clickCounterBtn {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+#item3 {
+    height: 30vh;
+    width: 35vh;
+    background: rgb(20, 23, 37);
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 20px;
+}
+
+#item3 h2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#toggleTextBtn {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+#item4 {
+    height: 30vh;
+    width: 35vh;
+    background: rgb(20, 23, 37);
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 20px;
+}
+
+#item4 h1 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#changeTextBtn {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover {
+    opacity: 70%;
 }
